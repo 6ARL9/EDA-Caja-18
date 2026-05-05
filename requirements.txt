@@ -1,0 +1,31 @@
+# =====================================================
+# Dependencias del proyecto
+# Análisis Exploratorio de Datos — Previsión y Salud
+# =====================================================
+# Instalación:
+#   pip install -r requirements.txt
+#
+# Probado con Python 3.10, 3.11 y 3.12.
+# Las versiones mínimas indicadas garantizan compatibilidad
+# con las APIs utilizadas en los notebooks.
+# =====================================================
+
+# --- Análisis y manipulación de datos ---
+pandas>=2.0.0
+numpy>=1.24.0
+
+# --- Visualización ---
+matplotlib>=3.7.0
+seaborn>=0.12.2
+
+# --- Entorno Jupyter ---
+jupyter>=1.0.0
+notebook>=7.0.0
+ipykernel>=6.25.0
+ipython>=8.14.0
+
+# --- Soporte para tablas estilizadas y exportación ---
+jinja2>=3.1.2
+
+# --- Lectura/escritura opcional ---
+openpyxl>=3.1.0
